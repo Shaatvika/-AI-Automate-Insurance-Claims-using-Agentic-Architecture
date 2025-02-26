@@ -22,11 +22,6 @@ crewai install
 
 **Add your `GEMINI_API_KEY`(or preferred AI model) into the `.env` file**
 
-- Modify `src/ai_automated_claims/config/agents.yaml` to define your agents
-- Modify `src/ai_automated_claims/config/tasks.yaml` to define your tasks
-- Modify `src/ai_automated_claims/crew.py` to add your own logic, tools and specific args
-- Modify `src/ai_automated_claims/main.py` to add custom inputs for your agents and tasks
-
 ## Running the Project
 
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
