@@ -1,6 +1,6 @@
-# AiAutomatedClaims Crew
+# AI AUTOMATED INSURANE CLAIMS USING AGENTIC ARCHITECTURE
 
-Welcome to the AiAutomatedClaims Crew project, powered by [crewAI]
+Welcome to the AI AUTOMATED INSURANE CLAIMS USING AGENTIC ARCHITECTURE PROJECT
 
 ## Installation
 
