@@ -6,6 +6,11 @@ Welcome to the AI AUTOMATED INSURANE CLAIMS USING AGENTIC ARCHITECTURE PROJECT
 
 Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV] for dependency management and package handling, offering a seamless setup and execution experience.
 
+Install crew:
+```bash
+pip install crew
+```
+
 First, if you haven't already, install uv:
 
 ```bash
