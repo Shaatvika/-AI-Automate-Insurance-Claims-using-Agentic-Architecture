@@ -1,0 +1,34 @@
+claim_filing_task:
+  description: >
+    Collect claim details from {image_url} validate policy information, and submit the claim to the insurer.
+  expected_output: >
+    A structured JSON containing the claim details along with text extracted {image_url}
+  agent: claim_processing_agent
+  
+claim_approval_task:
+  description: >
+    Evaluate submitted claims and decide approval or denial based on past data for the client.{claimant_name} bearing {policy_number}
+    and {claim_amount}. Verify the details of the treatment from {image_url} and deccide if the claim should be approved or not. 
+  expected_output: >
+    A final decision (Approved/Denied) along with an explanation.
+  agent: claim_approval_agent
+  
+chatbot_task:
+  description: >
+    Answer customer {query} regarding claim filing, status updates, and insurance policies.
+    The input can be in English, Hindi, Kannada, Tamil, Telugu, Bengali, Malayalam. 
+    The query will be written in English text. 
+  expected_output: >
+    A relevant and concise response to the customer query.
+    The response should be in the language the customer asked the query. It should be answered using English alphabets but 
+    the content of the response should be in the language asked.
+  agent: chatbot_agent
+  
+monitoring_task:
+  description: >
+    Provide real-time tabular dashboards and alerts for claim status. It should display all the claims that have been made, the status 
+    of the claims, {claim_amount}, and other details that can be extracted from {image_url}.
+  expected_output: >
+    A visual dashboard , in tabulated manner, displaying claim statistics, details from {image_url}, status of claim and system performance metrics.
+  agent: monitoring_agent
+  
