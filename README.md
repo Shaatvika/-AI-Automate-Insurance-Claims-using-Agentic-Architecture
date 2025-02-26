@@ -11,6 +11,11 @@ First, if you haven't already, install uv:
 ```bash
 pip install uv
 ```
+Clone the below repository:
+
+```bash 
+git clone https://github.com/Shaatvika/-AI-Automate-Insurance-Claims-using-Agentic-Architecture.git
+```
 
 Next, navigate to your project directory and install the dependencies:
 
